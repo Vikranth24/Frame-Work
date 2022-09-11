@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26675" started-at="2022-07-26T18:05:50 IST" finished-at="2022-07-26T18:06:17 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="26675" started-at="2022-07-26T18:05:50 IST" finished-at="2022-07-26T18:06:17 IST">
+      <class name="One.BBB">
+        <test-method status="PASS" signature="Mysql()[pri:0, instance:One.BBB@26d9b808]" name="Mysql" is-config="true" duration-ms="7" started-at="2022-07-26T18:05:50 IST" finished-at="2022-07-26T18:05:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mysql -->
+        <test-method status="PASS" signature="Open_Browser(java.lang.String)[pri:0, instance:One.BBB@26d9b808]" name="Open_Browser" is-config="true" duration-ms="17994" started-at="2022-07-26T18:05:50 IST" finished-at="2022-07-26T18:06:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Browser -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:One.BBB@26d9b808]" name="Login" is-config="true" duration-ms="1" started-at="2022-07-26T18:06:08 IST" finished-at="2022-07-26T18:06:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="add()[pri:0, instance:One.BBB@26d9b808]" name="add" duration-ms="6644" started-at="2022-07-26T18:06:08 IST" finished-at="2022-07-26T18:06:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:One.BBB@26d9b808]" name="Logout" is-config="true" duration-ms="1" started-at="2022-07-26T18:06:15 IST" finished-at="2022-07-26T18:06:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:One.BBB@26d9b808]" name="quit" is-config="true" duration-ms="1629" started-at="2022-07-26T18:06:15 IST" finished-at="2022-07-26T18:06:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- One.BBB -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
